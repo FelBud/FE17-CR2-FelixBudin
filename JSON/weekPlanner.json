@@ -1,0 +1,51 @@
+let weekJSON = `[
+    {
+      "taskName": "Shopping",
+      "image": "shopping.jpg",
+      "dscription": "Shop for weekly groceries at Billa and Hofer.",
+      "importance": 0
+  }, 
+    {
+        "taskName": "Training",
+        "image": "sport.jpg",
+        "dscription": "Go to Gym and do Calistenics",
+        "importance": 0
+  } , 
+      {
+        "taskName": "Cooking",
+        "image": "cooking.jpg",
+        "dscription": "Cook the meal in the evening.",
+        "importance": 0
+  }, 
+      {
+        "taskName": "Cleaning",
+        "image": "cleaning.jpg",
+        "dscription": "Clean the flat.",
+        "importance": 0
+  },  {
+    "taskName": "Phonecall",
+    "image": "call.jpg",
+    "dscription": "Ring your Mother and Grandmother.",
+    "importance": 0
+},  {
+    "taskName": "Study",
+    "image": "study.jpg",
+    "dscription": "Read your studying material.",
+    "importance": 0
+},  {
+    "taskName": "Course",
+    "image": "course.jpg",
+    "dscription": "Go to Coding Course.",
+    "importance": 0
+},  {
+    "taskName": "Pets",
+    "image": "pets.jpg",
+    "dscription": "Feed the pets and empty the litter box.",
+    "importance": 0
+},  {
+    "taskName": "Flowers",
+    "image": "flowers.jpg",
+    "dscription": "Water the Flowers.",
+    "importance": 0
+}
+]`;
