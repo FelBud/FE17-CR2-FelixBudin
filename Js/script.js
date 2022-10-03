@@ -15,13 +15,22 @@ function updateHTML() {
     `;
     }
 }
-
+updateHTML();
+addEvent();
 //increasing the importance till max 5 
 
 function importance(index) {
     if (week[index].importance != 5) {
+
         week[index].importance++;
+        let classColor = "";
+        if (week[index].importance <= 3) {
+            classColor = "bg-warning";
+        } else if (week[index].importance >= 4) {
+            classColor = "bg-danger";
+        }
         document.getElementsByClassName("priority-level")[index].innerHTML = week[index].importance;
+        document.getElementsByClassName("priority-level")[index].setAttribute("class", "priority-level " + classColor);
     }
 }
 
@@ -50,7 +59,7 @@ function sortByImportanceValue() {
 
 }
 
-// let importanceColor = document.getElementbyId.('importance').value
+// let importanceColor = document.getElementbyId('importance').value
 // let classname = ""
 // if (importanceColor.value < 1) {
 //     classname = "bg-success";
